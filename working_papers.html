@@ -20,6 +20,58 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .publication-wrap {
+        max-width: 920px;
+        margin: 0 auto;
+      }
+
+      .publication-intro {
+        margin-bottom: 2rem;
+      }
+
+      .publication-year {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #111;
+        margin: 2rem 0 1rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+      }
+
+      .publication-item {
+        padding: 1.25rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      }
+
+      .publication-title {
+        display: block;
+        font-size: 1.25rem;
+        font-weight: 600;
+        line-height: 1.35;
+        color: #111;
+        margin-bottom: 0.35rem;
+      }
+
+      .publication-title a {
+        color: inherit;
+      }
+
+      .publication-meta {
+        color: #6b7280;
+        font-size: 0.95rem;
+        margin-bottom: 0.6rem;
+      }
+
+      .publication-description {
+        margin-bottom: 0.75rem;
+      }
+
+      .publication-actions a {
+        font-size: 0.95rem;
+        font-weight: 500;
+      }
+    </style>
   </head>
   <body>
     <div id="colorlib-page">
@@ -52,76 +104,42 @@
 
       <div id="colorlib-main">
         <section class="ftco-section">
-          <div class="container">
-            <div class="row justify-content-center mb-5 pb-2">
-              <div class="col-md-8 heading-section text-center ftco-animate">
+          <div class="container publication-wrap">
+            <div class="row justify-content-center mb-4 pb-2">
+              <div class="col-md-10 heading-section text-center ftco-animate publication-intro">
                 <h2 class="mb-4">Working Papers</h2>
-                <p>Drafts and projects in progress.</p>
+                <p>Selected working papers and dissertation projects.</p>
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-md-4">
-                <div class="blog-entry ftco-animate">
-                  <a href="#" class="img img-2" style="background-image: url(images/image_1.jpg);"></a>
-                  <div class="text text-2 pt-2 mt-3">
-                    <span class="category mb-3 d-block"><a href="#">PhD</a></span>
-                    <h3 class="mb-4"><a href="#">PhD Thesis</a></h3>
-                    <p class="mb-4">Placeholder for the dissertation project.</p>
-                    <div class="meta-wrap align-items-center">
-                      <div class="half order-md-last">
-                        <p class="meta">
-                          <span><i class="icon-eye"></i>Coming soon</span>
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p><a href="#" class="btn py-2">Placeholder <span class="ion-ios-arrow-forward"></span></a></p>
-                      </div>
-                    </div>
-                  </div>
+            <div class="ftco-animate">
+              <div class="publication-year">2026</div>
+
+              <div class="publication-item">
+                <div class="publication-title"><a href="#">PhD Thesis</a></div>
+                <div class="publication-meta">PhD, Dissertation Project</div>
+                <div class="publication-description">Placeholder for the dissertation project.</div>
+              </div>
+
+              <div class="publication-item">
+                <div class="publication-title">
+                  <a href="src/arxiv-org-7495044-working-paper.mhtml">
+                    From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?
+                  </a>
+                </div>
+                <div class="publication-meta">Lu Yu and Xiang Li</div>
+                <div class="publication-description">
+                  A finance-focused paper on how agentic AI changes labor, scale, and task allocation.
+                </div>
+                <div class="publication-actions">
+                  <a href="src/arxiv-org-7495044-working-paper.mhtml">Read paper <span class="ion-ios-arrow-forward"></span></a>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="blog-entry ftco-animate">
-                  <a href="src/arxiv-org-7495044-working-paper.html" class="img img-2" style="background-image: url(images/image_2.jpg);"></a>
-                  <div class="text text-2 pt-2 mt-3">
-                    <span class="category mb-3 d-block"><a href="#">Working Paper</a></span>
-                    <h3 class="mb-4"><a href="src/arxiv-org-7495044-working-paper.html">From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?</a></h3>
-                    <p class="mb-4">A finance-focused paper on how agentic AI changes labor, scale, and task allocation.</p>
-                    <div class="meta-wrap align-items-center">
-                      <div class="half order-md-last">
-                        <p class="meta">
-                          <span><i class="icon-eye"></i>Read draft</span>
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p><a href="src/arxiv-org-7495044-working-paper.html" class="btn py-2">Read Paper <span class="ion-ios-arrow-forward"></span></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="blog-entry ftco-animate">
-                  <a href="#" class="img img-2" style="background-image: url(images/image_3.jpg);"></a>
-                  <div class="text text-2 pt-2 mt-3">
-                    <span class="category mb-3 d-block"><a href="#">Research</a></span>
-                    <h3 class="mb-4"><a href="#">More Working Papers Coming Soon</a></h3>
-                    <p class="mb-4">Placeholder for future drafts and new research ideas.</p>
-                    <div class="meta-wrap align-items-center">
-                      <div class="half order-md-last">
-                        <p class="meta">
-                          <span><i class="icon-eye"></i>In progress</span>
-                        </p>
-                      </div>
-                      <div class="half">
-                        <p><a href="#" class="btn py-2">Placeholder <span class="ion-ios-arrow-forward"></span></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="publication-item">
+                <div class="publication-title"><a href="#">More Working Papers Coming Soon</a></div>
+                <div class="publication-meta">Research in progress</div>
+                <div class="publication-description">Placeholder for future drafts and new research ideas.</div>
               </div>
             </div>
           </div>
