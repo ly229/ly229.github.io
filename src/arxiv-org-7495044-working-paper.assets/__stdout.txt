@@ -1,0 +1,1 @@
+Offline snapshot: build logs are not included in this local copy.
