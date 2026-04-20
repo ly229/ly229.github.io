@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://services.arxiv.org/html/submission/7495044/view -->
+<html lang="en" data-theme="light"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?</title>
+<!--Generated on Mon Apr 20 16:17:11 2026 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./arxiv-org-7495044-working-paper_files/arxiv-html-papers-20260131.css" type="text/css">
+<script src="./arxiv-org-7495044-working-paper_files/arxiv-html-papers-20260131.js.download"></script>
+<script>
+  // Restore the saved color scheme preference, or
+  // enact the browser preference if "automatic", 
+  // without expecting DOM load to have completed.
+  //
+  // Also restore any saved readingmode and ToC display preferences.
+  function initializeReadingPreferences() {
+    let saved_theme = localStorage.getItem("ar5iv_theme") || "automatic";
+    if (saved_theme === "automatic") {
+      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+        saved_theme = "dark";
+      }
+    }
+    if (saved_theme == "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+
+    const tocDisplay = localStorage.getItem('arxiv_html_paper_toc_display');
+    if (tocDisplay) {
+      document.documentElement.setAttribute("data-toc-display", tocDisplay);
+    }
+    const readingMode = localStorage.getItem('arxiv_html_paper_reading_mode');
+    if (readingMode) {
+      document.documentElement.setAttribute("data-reading-mode", readingMode);
+    }
+  }
+  // Run as soon as JS starts, to minimize repainting
+  initializeReadingPreferences();
+</script>
+<link rel="apple-touch-icon" sizes="180x180" href="https://services.arxiv.org/static/browse/0.3.4/images/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://services.arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://services.arxiv.org/static/browse/0.3.4/images/icons/favicon-16x16.png">
+<link rel="manifest" href="https://services.arxiv.org/static/browse/0.3.4/images/icons/site.webmanifest">
+<link rel="mask-icon" href="https://services.arxiv.org/static/browse/0.3.4/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="stylesheet" type="text/css" media="screen" href="./arxiv-org-7495044-working-paper_files/utz6mli.css">
+</head>
+<body>
+<dialog id="modal-form" aria-labelledby="modal-title" closedby="any">
+  <form id="modal-form-content" method="dialog" enctype="multipart/form-data">
+    <header class="modal-header">
+      <h5 id="modal-title" class="modal-title">Report GitHub Issue</h5>
+      <button type="submit" formnovalidate="" class="modal-close" aria-label="Close">×</button>
+    </header>
+
+    <div class="modal-body">
+      <label for="form_title">Title:</label>
+      <input class="form-control" id="form_title" name="form_title" required="" placeholder="Enter title">
+
+      <p id="selectedTextModalDescription" hidden="">Content selection saved. Describe the issue below:</p>
+
+      <label for="description">Description:</label>
+      <textarea class="form-control" id="description" name="description" required="" maxlength="500" placeholder="500 characters maximum"></textarea>
+    </div>
+
+    <footer class="modal-footer">
+      <button type="submit" value="internal-report" class="sr-only modal-submit">Submit without GitHub</button>
+      <button type="submit" value="github-report" class="modal-submit">Submit in GitHub</button>
+    </footer>
+  </form>
+</dialog>
+
+<header class="arxiv-html-header">
+  <div class="html-header-logo">
+    <a href="https://services.arxiv.org/">
+      <img alt="arXiv logo" class="logo desktop-only" width="100" src="./arxiv-org-7495044-working-paper_files/arxiv-logo-one-color-white.svg">
+      <span class="sr-only">Back to arXiv</span>
+    </a>
+  </div>
+  <!--TOC, dark mode, links-->
+  <nav class="html-header-nav">
+    <a class="header-button hover-effect desktop-only" href="https://info.arxiv.org/about/accessible_HTML.html" target="_blank">Why HTML?</a>
+    <a class="header-button" title="Report an Issue" href="https://services.arxiv.org/html/submission/7495044/view#" onclick="event.preventDefault(); showModalForm();">
+      <svg role="presentation" class="mobile-only toggle-icon" aria-hidden="true" height="1.25rem" viewBox="0 0 640 640">
+        <path d="M224 160C224 107 267 64 320 64C373 64 416 107 416 160L416 163.6C416 179.3 403.3 192 387.6 192L252.5 192C236.8 192 224.1 179.3 224.1 163.6L224.1 160zM569.6 172.8C580.2 186.9 577.3 207 563.2 217.6L465.4 290.9C470.7 299.8 474.7 309.6 477.2 320L576 320C593.7 320 608 334.3 608 352C608 369.7 593.7 384 576 384L480 384L480 416C480 418.6 479.9 421.3 479.8 423.9L563.2 486.4C577.3 497 580.2 517.1 569.6 531.2C559 545.3 538.9 548.2 524.8 537.6L461.7 490.3C438.5 534.5 395.2 566.5 344 574.2L344 344C344 330.7 333.3 320 320 320C306.7 320 296 330.7 296 344L296 574.2C244.8 566.5 201.5 534.5 178.3 490.3L115.2 537.6C101.1 548.2 81 545.3 70.4 531.2C59.8 517.1 62.7 497 76.8 486.4L160.2 423.9C160.1 421.3 160 418.7 160 416L160 384L64 384C46.3 384 32 369.7 32 352C32 334.3 46.3 320 64 320L162.8 320C165.3 309.6 169.3 299.8 174.6 290.9L76.8 217.6C62.7 207 59.8 186.9 70.4 172.8C81 158.7 101.1 155.8 115.2 166.4L224 248C236.3 242.9 249.8 240 264 240L376 240C390.2 240 403.7 242.8 416 248L524.8 166.4C538.9 155.8 559 158.7 569.6 172.8z"></path>
+      </svg>
+      <span class="desktop-only">Report Issue</span></a>
+    <!--back to abstract-->
+    
+    <!-- navigational table of contents toggle -->
+    <a class="header-button toggle-icon" href="javascript:toggleNavTOC();" title="Toggle navigation" aria-label="Toggle navigation">
+      <svg height="1.25rem" role="presentation" viewBox="0 0 512 512">
+        <path d="M40 48C26.7 48 16 58.7 16 72v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V72c0-13.3-10.7-24-24-24H40zM192 64c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zm0 160c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H192zM16 232v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V232c0-13.3-10.7-24-24-24H40c-13.3 0-24 10.7-24 24zM40 368c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24H88c13.3 0 24-10.7 24-24V392c0-13.3-10.7-24-24-24H40z">
+        </path>
+      </svg>
+    </a>
+    <!--- collapsable header / reading mode toggle -->
+    <a class="header-button toggle-icon" href="javascript:toggleReadingMode();" title="Disable reading mode, show header and footer">
+      <svg role="presentation" height="1.25rem" viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+        <path d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32S0 334.3 0 352l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"></path>
+      </svg>
+    </a>
+    <!--- colored theme toggle -->
+    <button type="button" class="header-button color-tog" onclick="toggleColorScheme();" title="Toggle dark/light mode" aria-label="Toggle color scheme">
+      <span class="toggle-icon automatic-tog" aria-hidden="true">
+        <svg role="presentation" height="1.25rem" viewBox="0 0 24 24">
+          <path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z">
+          </path>
+        </svg>
+      </span>
+      <span class="toggle-icon light-tog" aria-hidden="true">
+        <svg role="presentation" height="1.25rem" viewBox="0 0 24 24">
+          <path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z">
+          </path>
+        </svg>
+      </span>
+      <span class="toggle-icon dark-tog" aria-hidden="true">
+        <svg role="presentation" height="1.25rem" viewBox="0 0 24 24">
+          <path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z">
+          </path>
+        </svg>
+      </span>
+    </button>
+  </nav>
+</header><nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_abstract"><a href="https://services.arxiv.org/html/submission/7495044/view#abstract1" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title">Abstract</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S1" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>The Question</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S2" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>Historical Parallel: The Computer Revolution</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S3" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>Baseline Evidence from the Earlier Productivity Shift</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S4" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>AI Competition: From Exposure to Reorganization</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S5" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>Democratization of Financial Capability</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S6" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>The Rise of Mini Hedge Funds</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S7" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">7 </span>Impact on Institutions</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S8" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">8 </span>Workforce Transformation</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S9" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">9 </span>Who Will Not Be Replaced?</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S10" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">10 </span>A Bifurcated Future</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S11" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">11 </span>Final Perspective: Efficiency, Risk, and Limits</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a href="https://services.arxiv.org/html/submission/7495044/view#S12" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">12 </span>Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_bibliography"><a href="https://services.arxiv.org/html/submission/7495044/view#bib" title="In From Clerks to Agentic-AI: How will Technology Change Labor Market in Finance?" class="ltx_ref"><span class="ltx_text ltx_ref_title">References</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div id="infobox" class="infobox">
+  <a id="license-tr" href="https://info.arxiv.org/help/license/index.html#licenses-available">
+    License: CC BY 4.0
+  </a>
+  <div id="watermark-tr">
+    submission/7495044  </div>
+</div><div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_title_document">From Clerks to Agentic-AI:
+<br class="ltx_break">How will Technology Change Labor Market in Finance?</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Lu Yu<span id="id1.1.id1" class="ltx_text" style="position:relative; bottom:2.6pt;">1</span> and Xiang Li<span id="id2.2.id2" class="ltx_text" style="position:relative; bottom:2.6pt;">2</span>
+</span></span>
+</div>
+
+<div id="abstract1" class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">Artificial intelligence is beginning to reshape financial markets in the same way that computers and electronic systems reshaped them in earlier decades. This paper studies a focused version of that broader shift: the rise of AI trading agents and their effect on market participants, market structure, and labor demand inside finance. The central claim is not that AI will eliminate finance, but that it will reorganize who can do high-quality research, monitoring, execution, and risk management. We use the historical computer revolution in the 1980s and 1990s as a benchmark, then compare it with the current AI wave. The expected outcome is a more polarized industry: large institutions preserve structural advantages, small teams become more capable, and middle-layer roles face the greatest pressure.</p>
+</div>
+<section id="S1" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>The Question</h2>
+
+<div id="S1.p1" class="ltx_para ltx_noindent">
+<p id="S1.p1.1" class="ltx_p">The rapid diffusion of agentic AI has created a new question for finance: whether the technology will primarily substitute for labor, augment existing workers, or reorganize the allocation of tasks inside firms. The issue matters especially in financial services because the industry combines standardized workflows, information processing, client-facing service, and judgment-intensive decision-making within the same organizational structure. As a result, AI is likely to affect tasks unevenly. Some activities may become cheaper and faster, while others may remain bottlenecked by supervision, trust, interpretation, and responsibility. The central question is therefore not simply whether AI reduces headcount, but which parts of the firm adjust first and what that implies for productivity, scale, and labor demand.</p>
+</div>
+<div id="S1.p2" class="ltx_para ltx_noindent">
+<p id="S1.p2.1" class="ltx_p">This paper approaches that question with a finance-specific empirical design that combines historical comparison, firm-level operating outcomes, and a simple measure of AI exposure drawn from corporate disclosures. Rather than treating AI as a purely speculative future shock, the paper studies how its diffusion already appears in the language firms use and whether that diffusion aligns with changes in revenue intensity, scale, and labor cost per worker. The goal is not to claim definitive causality at this stage, but to build a transparent framework for asking how AI reshapes the organization of work inside finance.</p>
+</div>
+</section>
+<section id="S2" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>Historical Parallel: The Computer Revolution</h2>
+
+<div id="S2.p1" class="ltx_para ltx_noindent">
+<p id="S2.p1.1" class="ltx_p">The natural benchmark for the AI wave is the earlier computer revolution. In the 1980s and 1990s, personal computers, spreadsheets, Bloomberg terminals, Reuters systems, and electronic trading infrastructure transformed the way financial firms processed information and managed risk. Those technologies did not eliminate finance. They changed who could operate effectively, how quickly information traveled through the system, and which firms could scale their edge.</p>
+</div>
+<div id="S2.p2" class="ltx_para ltx_noindent">
+<p id="S2.p2.1" class="ltx_p">That historical comparison matters because finance has already lived through one major technology shock. The earlier wave increased speed, improved information processing, expanded the use of derivatives, and widened the advantage of institutions that could afford hardware, data, and systems integration. Manual workflows such as paper tickets, phone-based execution, and fragmented recordkeeping gradually gave way to system-driven trading and more interconnected market structure. The current AI wave appears to be pushing on similar margins, but through cognition and workflow automation rather than through computation alone.</p>
+</div>
+<div id="S2.p3" class="ltx_para ltx_noindent">
+<p id="S2.p3.1" class="ltx_p">The next figure translates that historical comparison into a task-level cost question. It shifts the discussion from old technology infrastructure to the practical choice between human labor, off-shore labor, and AI agents. The point is not that AI is always cheaper, but that the relevant unit of analysis is the full workflow cost, including supervision, risk, and integration.</p>
+</div>
+<figure id="S2.F1" class="ltx_figure"><img src="./arxiv-org-7495044-working-paper_files/workforce_transformation.png" id="S2.F1.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="598" height="399" alt="Refer to caption">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 1: </span>Workforce transformation cost comparison</figcaption>
+</figure>
+</section>
+<section id="S3" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>Baseline Evidence from the Earlier Productivity Shift</h2>
+
+<div id="S3.p1" class="ltx_para ltx_noindent">
+<p id="S3.p1.1" class="ltx_p">The earlier <span id="S3.p1.1.1" class="ltx_text ltx_font_typewriter">simple_analysis</span> provides the descriptive bridge from the computer era to the current AI period. That work compares firm-group productivity across four broad eras: pre-computerization, computerization, indexing, and AI. The regression evidence shows that both <span id="S3.p1.1.2" class="ltx_text ltx_font_typewriter">revenue_per_employee</span> and <span id="S3.p1.1.3" class="ltx_text ltx_font_typewriter">aum_per_employee</span> are substantially higher in later eras than in the pre-computerization benchmark, even after controlling for firm-group fixed effects. In the revenue specification, the era coefficients rise from 1.4070 in the computerization period to 2.0543 in the indexing period and 2.3688 in the AI period. In the AUM specification, the coefficients rise from 1.3638 to 2.4197 and then 3.3944.</p>
+</div>
+<div id="S3.p2" class="ltx_para ltx_noindent">
+<p id="S3.p2.1" class="ltx_p">These magnitudes are not causal estimates, but they show that the financial panel is already moving in the same broad direction as the later SEC-based analysis. They also suggest that long-run productivity growth in finance did not arrive all at once. It accumulated through waves of technological and organizational change.</p>
+</div>
+<figure id="S3.F2" class="ltx_figure"><img src="./arxiv-org-7495044-working-paper_files/simple_finance_productivity_eras_real.png" id="S3.F2.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="598" height="455" alt="Refer to caption">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 2: </span>Simple finance productivity eras real</figcaption>
+</figure>
+<div id="S3.p3" class="ltx_para ltx_noindent">
+<p id="S3.p3.1" class="ltx_p">The real-era figure reinforces the same point after deflating the productivity ratios. The rise remains visible in real terms, so the pattern is not just an artifact of nominal growth. It is the cleanest descriptive bridge from the historical panel to the filing-based AI analysis.</p>
+</div>
+<figure id="S3.F3" class="ltx_figure"><img src="./arxiv-org-7495044-working-paper_files/wage_trends_by_group_real.png" id="S3.F3.g1" class="ltx_graphics ltx_centering ltx_img_square" width="598" height="602" alt="Refer to caption">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 3: </span>Wage trends by group real</figcaption>
+</figure>
+<div id="S3.p4" class="ltx_para ltx_noindent">
+<p id="S3.p4.1" class="ltx_p">The wage-trend figure adds the labor-market dimension. Labor costs also evolve over time, and wage growth is not identical across firm families. That matters because the central question is not only whether output per worker rises, but whether finance changes through labor displacement, labor augmentation, or internal task reallocation.</p>
+</div>
+</section>
+<section id="S4" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>AI Competition: From Exposure to Reorganization</h2>
+
+<div id="S4.p1" class="ltx_para ltx_noindent">
+<p id="S4.p1.1" class="ltx_p">To examine the current AI wave more directly, the paper builds a firm-level AI exposure measure from official SEC 10-K filings for five large financial firms: Bank of America, BNY Mellon, JPMorgan Chase, S&amp;P Global, and State Street. The corpus covers 2015 through 2025 and is fetched directly from SEC-hosted endpoints using a valid User-Agent header. The exposure measure counts direct AI language such as “artificial intelligence,” “machine learning,” “generative AI,” and “autonomous agent,” together with adjacent automation language such as “automation,” “robotic process automation,” and “workflow automation.” Direct AI terms receive higher weight, and the weighted count is normalized by total filing words to form the final <span id="S4.p1.1.1" class="ltx_text ltx_font_typewriter">ai_exposure</span> variable.</p>
+</div>
+<div id="S4.p2" class="ltx_para ltx_noindent">
+<p id="S4.p2.1" class="ltx_p">The panel outcomes are <span id="S4.p2.1.1" class="ltx_text ltx_font_typewriter">revenue_per_employee</span>, <span id="S4.p2.1.2" class="ltx_text ltx_font_typewriter">aum_per_employee</span>, and <span id="S4.p2.1.3" class="ltx_text ltx_font_typewriter">labor_expense_per_employee</span>. These variables are useful because they separate different channels through which AI may matter. Revenue per employee captures broad operating productivity. AUM per employee captures scale in asset-management and custody-type activity. Labor expense per employee provides a direct though incomplete proxy for labor cost pressure. The baseline specification is</p>
+</div>
+<div id="S4.p3" class="ltx_para ltx_noindent">
+<table id="S4.E1" class="ltx_equation ltx_eqn_table">
+
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math id="S4.E1.m1" class="ltx_Math" alttext="\log(1+\text{outcome}_{it})=\beta\cdot\text{ai\_exposure}_{it}+\text{firm FE}+\text{year FE}+\text{error}_{it}." display="block" intent=":literal"><semantics><mrow><mrow><mrow><mi>log</mi><mo>⁡</mo><mrow><mo stretchy="false">(</mo><mrow><mn>1</mn><mo>+</mo><msub><mtext>outcome</mtext><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mrow><mi>β</mi><mo lspace="0.222em" rspace="0.222em">⋅</mo><msub><mtext>ai_exposure</mtext><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi></mrow></msub></mrow><mo>+</mo><mtext>firm FE</mtext><mo>+</mo><mtext>year FE</mtext><mo>+</mo><msub><mtext>error</mtext><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi></mrow></msub></mrow></mrow><mo lspace="0em">.</mo></mrow><annotation encoding="application/x-tex">\log(1+\text{outcome}_{it})=\beta\cdot\text{ai\_exposure}_{it}+\text{firm FE}+\text{year FE}+\text{error}_{it}.</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+<td rowspan="1" class="ltx_eqn_cell ltx_eqn_eqno ltx_align_middle ltx_align_right"><span class="ltx_tag ltx_tag_equation ltx_align_right">(1)</span></td>
+</tr></tbody>
+</table>
+</div>
+<div id="S4.p4" class="ltx_para ltx_noindent">
+<p id="S4.p4.1" class="ltx_p">This is a panel correlation design rather than a causal design. It estimates within-firm variation over time while absorbing common macro shocks. Its role is to test whether firms with rising AI disclosure intensity also display systematic changes in operating outcomes.</p>
+</div>
+</section>
+<section id="S5" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>Democratization of Financial Capability</h2>
+
+<div id="S5.p1" class="ltx_para ltx_noindent">
+<p id="S5.p1.1" class="ltx_p">One implication of agentic AI is that some capabilities once reserved for large institutions are becoming cheaper and more modular. In earlier decades, access to premium terminals, specialized analysts, and bespoke internal systems created a substantial barrier between large firms and everyone else. Today, AI tools increasingly compress the cost of research assistance, market monitoring, documentation, and routine analytical tasks.</p>
+</div>
+<div id="S5.p2" class="ltx_para ltx_noindent">
+<p id="S5.p2.1" class="ltx_p">This does not mean the institutional advantage disappears. It means the composition of the advantage changes. Large firms still dominate in infrastructure, proprietary data, compliance depth, and execution quality. But AI lowers the cost of assembling a competent research and operations stack, which makes small teams more viable than they were under the older technology regime. In labor-market terms, that raises pressure on middle-layer functions whose edge depended on coordinating information flows that AI can now help standardize.</p>
+</div>
+</section>
+<section id="S6" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>The Rise of Mini Hedge Funds</h2>
+
+<div id="S6.p1" class="ltx_para ltx_noindent">
+<p id="S6.p1.1" class="ltx_p">This logic points to a possible new firm form: very small teams operating with hedge-fund-like capability. A one- to three-person team equipped with AI can plausibly perform research triage, monitor multiple markets, summarize disclosures, draft memos, compare scenarios, and maintain higher operational coverage than a similarly sized team could in the past. The technology therefore does not only affect incumbent banks and asset managers. It also changes the minimum efficient scale for certain types of financial analysis and portfolio support.</p>
+</div>
+<div id="S6.p2" class="ltx_para ltx_noindent">
+<p id="S6.p2.1" class="ltx_p">The filing evidence is consistent with that broader interpretation. If AI exposure is associated with higher AUM per employee but not with immediate reductions in labor expense per employee, the more plausible story is not simply “firms fire people.” It is that AI allows more scale and workflow consolidation per worker, especially in businesses where monitoring and information processing matter.</p>
+</div>
+</section>
+<section id="S7" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">7 </span>Impact on Institutions</h2>
+
+<div id="S7.p1" class="ltx_para ltx_noindent">
+<p id="S7.p1.1" class="ltx_p">The fixed-effects results summarize that pattern clearly. The estimated coefficient on AI exposure is negative for <span id="S7.p1.1.1" class="ltx_text ltx_font_typewriter">revenue_per_employee</span>, with a point estimate of -0.0535 and a robust standard error of 0.0117. The coefficient on <span id="S7.p1.1.2" class="ltx_text ltx_font_typewriter">aum_per_employee</span> is positive, with a point estimate of 0.5843 and a robust standard error of 0.1646. The coefficient on <span id="S7.p1.1.3" class="ltx_text ltx_font_typewriter">labor_expense_per_employee</span> is small and statistically insignificant, at 0.0107 with a robust standard error of 0.0219.</p>
+</div>
+<figure id="S7.F4" class="ltx_figure"><img src="./arxiv-org-7495044-working-paper_files/ai_exposure_fe_coefficients.png" id="S7.F4.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="598" height="321" alt="Refer to caption">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 4: </span>Coefficient plot of AI exposure fixed-effects results</figcaption>
+</figure>
+<div id="S7.p2" class="ltx_para ltx_noindent">
+<p id="S7.p2.1" class="ltx_p">These estimates should not be read as causal proof. But they are informative because they separate different margins of adjustment. Greater AI disclosure intensity is associated with lower revenue intensity per worker, higher AUM per worker, and no clear immediate compression in labor expense per worker. In a finance setting, that combination is more consistent with reorganization, reinvestment, and output-mix change than with a clean headcount-reduction story.</p>
+</div>
+<div id="S7.p3" class="ltx_para ltx_noindent">
+<p id="S7.p3.1" class="ltx_p">This pattern also helps explain why middle-tier firms may face the most pressure. Large institutions retain advantages in infrastructure, execution, and proprietary data. Small teams gain capability through AI. The firms most exposed are those whose historical edge depended on labor-heavy coordination without the scale benefits of the largest incumbents.</p>
+</div>
+</section>
+<section id="S8" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">8 </span>Workforce Transformation</h2>
+
+<div id="S8.p1" class="ltx_para ltx_noindent">
+<p id="S8.p1.1" class="ltx_p">AGI labor impacts are hard to model directly, so the most practical starting point is bottom-line thinking. The relevant comparison is not whether AI is “cheap” in the abstract, but whether the fully loaded cost of a human’s output exceeds the all-in cost of AI tokens, infrastructure, and oversight. This framing also fits Kulveit’s discussion of post-AGI economics, which warns against importing human-economy assumptions too directly into an AI-dominated setting <cite class="ltx_cite ltx_citemacro_citep">[<a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib24" title="" class="ltx_ref">24</a>]</cite>.</p>
+</div>
+<div id="S8.p2" class="ltx_para ltx_noindent">
+<p id="S8.p2.1" class="ltx_p">The table below makes that comparison concrete. AI is not costless, but its cost structure is different: more variable on usage, less tied to headcount, and often easier to scale across repetitive work. The key question is whether a task is dominated by judgment and exception handling, or by volume, standardization, and throughput.</p>
+</div>
+<figure id="S8.tab1" class="ltx_table">
+<table id="S8.tab1.1" class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr id="S8.tab1.1.1.1" class="ltx_tr">
+<th id="S8.tab1.1.1.1.1" class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.1.1.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.1.1.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.1.1.1.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Cost component</span></span>
+</span>
+</th>
+<th id="S8.tab1.1.1.1.2" class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.1.1.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.1.1.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.1.1.2.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">U.S. Worker</span></span>
+</span>
+</th>
+<th id="S8.tab1.1.1.1.3" class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.1.1.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.1.1.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.1.1.3.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Off-Shore Worker</span></span>
+</span>
+</th>
+<th id="S8.tab1.1.1.1.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_tt" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.1.1.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.1.1.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.1.1.4.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">AI Agent</span></span>
+</span>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr id="S8.tab1.1.2.1" class="ltx_tr">
+<td id="S8.tab1.1.2.1.1" class="ltx_td ltx_align_justify ltx_align_top ltx_border_t" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.2.1.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.2.1.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.2.1.1.1.1.1" class="ltx_text" style="font-size:90%;">Direct</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.2.1.2" class="ltx_td ltx_align_justify ltx_align_top ltx_border_t" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.2.1.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.2.1.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.2.1.2.1.1.1" class="ltx_text" style="font-size:90%;">Salary: $45k/year</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.2.1.3" class="ltx_td ltx_align_justify ltx_align_top ltx_border_t" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.2.1.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.2.1.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.2.1.3.1.1.1" class="ltx_text" style="font-size:90%;">Salary: $8k/year</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.2.1.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top ltx_border_t" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.2.1.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.2.1.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.2.1.4.1.1.1" class="ltx_text" style="font-size:90%;">Token: $0.03 per call</span></span>
+</span>
+</td>
+</tr>
+<tr id="S8.tab1.1.3.2" class="ltx_tr">
+<td id="S8.tab1.1.3.2.1" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.3.2.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.3.2.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.3.2.1.1.1.1" class="ltx_text" style="font-size:90%;">Indirect</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.3.2.2" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.3.2.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.3.2.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.3.2.2.1.1.1" class="ltx_text" style="font-size:90%;">Benefits, Admin: +35% ($15k)</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.3.2.3" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.3.2.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.3.2.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.3.2.3.1.1.1" class="ltx_text" style="font-size:90%;">Benefits, Admin: +35% ($3k)</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.3.2.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.3.2.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.3.2.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.3.2.4.1.1.1" class="ltx_text" style="font-size:90%;">Integration, infra: $10k/year</span></span>
+</span>
+</td>
+</tr>
+<tr id="S8.tab1.1.4.3" class="ltx_tr">
+<td id="S8.tab1.1.4.3.1" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.4.3.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.4.3.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.4.3.1.1.1.1" class="ltx_text" style="font-size:90%;">Supervision</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.4.3.2" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.4.3.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.4.3.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.4.3.2.1.1.1" class="ltx_text" style="font-size:90%;">Manager: 10–15 hours monthly</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.4.3.3" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.4.3.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.4.3.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.4.3.3.1.1.1" class="ltx_text" style="font-size:90%;">Manager: 15–20 hours monthly</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.4.3.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.4.3.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.4.3.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.4.3.4.1.1.1" class="ltx_text" style="font-size:90%;">Prompt, monitoring: 5–10 hours/month</span></span>
+</span>
+</td>
+</tr>
+<tr id="S8.tab1.1.5.4" class="ltx_tr">
+<td id="S8.tab1.1.5.4.1" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.5.4.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.5.4.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.5.4.1.1.1.1" class="ltx_text" style="font-size:90%;">Risk</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.5.4.2" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.5.4.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.5.4.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.5.4.2.1.1.1" class="ltx_text" style="font-size:90%;">Turnover (50% annual), errors, absenteeism</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.5.4.3" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.5.4.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.5.4.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.5.4.3.1.1.1" class="ltx_text" style="font-size:90%;">Turnover (60–80%), timezone issues</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.5.4.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.5.4.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.5.4.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.5.4.4.1.1.1" class="ltx_text" style="font-size:90%;">Hallucinations, escalation handoff (20–30%)</span></span>
+</span>
+</td>
+</tr>
+<tr id="S8.tab1.1.6.5" class="ltx_tr">
+<td id="S8.tab1.1.6.5.1" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.6.5.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.6.5.1.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.6.5.1.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">Per-call cost</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.6.5.2" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.6.5.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.6.5.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.6.5.2.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">$4.80/call</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.6.5.3" class="ltx_td ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.6.5.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.6.5.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.6.5.3.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">$0.88/call</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.6.5.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.6.5.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.6.5.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.6.5.4.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">$0.83/call</span></span>
+</span>
+</td>
+</tr>
+<tr id="S8.tab1.1.7.6" class="ltx_tr">
+<td id="S8.tab1.1.7.6.1" class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.7.6.1.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.7.6.1.1.1" class="ltx_p" style="width:95.4pt;">
+<span id="S8.tab1.1.7.6.1.1.1.1" class="ltx_inline-block ltx_align_left">
+<span id="S8.tab1.1.7.6.1.1.1.1.1" class="ltx_p"><span id="S8.tab1.1.7.6.1.1.1.1.1.1" class="ltx_text ltx_font_bold" style="font-size:90%;">Annual</span></span>
+<span id="S8.tab1.1.7.6.1.1.1.1.2" class="ltx_p"><span id="S8.tab1.1.7.6.1.1.1.1.2.1" class="ltx_text ltx_font_bold" style="font-size:90%;">(12.5k calls)</span></span>
+</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.7.6.2" class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.7.6.2.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.7.6.2.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.7.6.2.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">$60,000</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.7.6.3" class="ltx_td ltx_align_justify ltx_align_top ltx_border_bb" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.7.6.3.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.7.6.3.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.7.6.3.1.1.1" class="ltx_text ltx_align_left ltx_font_bold" style="font-size:90%;">$11,000</span></span>
+</span>
+</td>
+<td id="S8.tab1.1.7.6.4" class="ltx_td ltx_nopad_r ltx_align_justify ltx_align_top ltx_border_bb" style="padding:0.55pt 4.0pt;">
+<span id="S8.tab1.1.7.6.4.1" class="ltx_inline-block ltx_align_top">
+<span id="S8.tab1.1.7.6.4.1.1" class="ltx_p" style="width:95.4pt;"><span id="S8.tab1.1.7.6.4.1.1.1" class="ltx_text ltx_align_left ltx_font_bold ltx_align_center" style="font-size:90%;">$10,375</span></span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</figure>
+<div id="S8.p3" class="ltx_para ltx_noindent">
+<p id="S8.p3.1" class="ltx_p">The labor-market implication is that AI will likely reshape finance through tasks before it reshapes it through job titles. Functions that are highly codifiable, such as data processing, routine reporting, standardized review, first-pass compliance checks, and internal documentation, are the most likely to face cost compression. By contrast, judgment-heavy work, client trust, negotiation, model oversight, and regime interpretation are more likely to be augmented than replaced.</p>
+</div>
+<div id="S8.p4" class="ltx_para ltx_noindent">
+<p id="S8.p4.1" class="ltx_p">The event-study style figure supports this incremental view of diffusion. It aligns firms around the first year in which exposure rises above the early baseline by a fixed margin. Bank of America appears earlier, S&amp;P Global accelerates later, JPMorgan and State Street move more gradually, and BNY Mellon crosses the threshold very late in the sample. That timing pattern suggests staggered organizational adoption rather than a single sector-wide break.</p>
+</div>
+<figure id="S8.F5" class="ltx_figure"><img src="./arxiv-org-7495044-working-paper_files/ai_exposure_event_study.png" id="S8.F5.g1" class="ltx_graphics ltx_centering ltx_img_landscape" width="598" height="347" alt="Refer to caption">
+<figcaption class="ltx_caption ltx_centering"><span class="ltx_tag ltx_tag_figure">Figure 5: </span>Event-study style AI exposure dynamics</figcaption>
+</figure>
+<div id="S8.p5" class="ltx_para ltx_noindent">
+<p id="S8.p5.1" class="ltx_p">The broader implication is that AI in finance should not be treated as a binary adoption event. It behaves more like rising organizational intensity. Firms disclose it differently, adopt it at different speeds, and likely apply it to different task bundles. That is exactly why future work should focus on timing, heterogeneity by business line, and task-specific exposure rather than on a single headline measure of automation.</p>
+</div>
+</section>
+<section id="S9" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">9 </span>Who Will Not Be Replaced?</h2>
+
+<div id="S9.p1" class="ltx_para ltx_noindent">
+<p id="S9.p1.1" class="ltx_p">The evidence here is consistent with the task-based literature on technology and labor. Autor’s framework emphasizes that technology substitutes for routine tasks while complementing abstract and interpersonal ones <cite class="ltx_cite ltx_citemacro_citep">[<a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib16" title="" class="ltx_ref">16</a>, <a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib21" title="" class="ltx_ref">21</a>]</cite>. Acemoglu and Restrepo show that automation, augmentation, capital deepening, and task creation are distinct channels <cite class="ltx_cite ltx_citemacro_citep">[<a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib13" title="" class="ltx_ref">13</a>, <a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib11" title="" class="ltx_ref">11</a>]</cite>. Brynjolfsson and McAfee stress that organizational redesign matters as much as the technology itself <cite class="ltx_cite ltx_citemacro_citep">[<a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib8" title="" class="ltx_ref">8</a>, <a href="https://services.arxiv.org/html/submission/7495044/view#bib.bib5" title="" class="ltx_ref">5</a>]</cite>. The present results fit that logic. AI exposure appears to align with changes in scale and workflow, but not with a simple, immediate reduction in labor expense per employee.</p>
+</div>
+<div id="S9.p2" class="ltx_para ltx_noindent">
+<p id="S9.p2.1" class="ltx_p">That suggests the workers least likely to be displaced are not simply the most senior by title, but the ones who contribute judgment under uncertainty, build frameworks, supervise models, interpret structural breaks, and integrate information across domains. Finance has many routine components, but it also has many situations in which codified prediction is not enough. Black swan events, regime shifts, political shocks, and strategic interaction still require human oversight. AI can improve throughput and pattern recognition, but it does not eliminate the need for decision rights.</p>
+</div>
+</section>
+<section id="S10" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">10 </span>A Bifurcated Future</h2>
+
+<div id="S10.p1" class="ltx_para ltx_noindent">
+<p id="S10.p1.1" class="ltx_p">Taken together, the evidence points toward a more polarized financial industry. Large institutions retain structural advantages. Very small teams become more capable because AI compresses the cost of coordination and analysis. The middle layer faces the greatest pressure because its historical role was often to intermediate between raw information and structured workflow. As AI becomes better at that layer of work, the competitive map shifts.</p>
+</div>
+<div id="S10.p2" class="ltx_para ltx_noindent">
+<p id="S10.p2.1" class="ltx_p">This is why the paper frames AI less as a story of total replacement and more as a story of redistribution of capability. The central adjustment margin may be organizational redesign rather than immediate labor shedding. Firms may first change the scale of work per employee, the mix of tasks, and the internal allocation of responsibility. Only later, if at all, do those changes show up clearly in headcount or compensation ratios.</p>
+</div>
+</section>
+<section id="S11" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">11 </span>Final Perspective: Efficiency, Risk, and Limits</h2>
+
+<div id="S11.p1" class="ltx_para ltx_noindent">
+<p id="S11.p1.1" class="ltx_p">The present analysis remains exploratory and has clear limitations. The sample includes only five firms. The exposure measure is based on filing language, which captures disclosure intensity as well as underlying operational adoption. The fixed-effects design cannot separate causality from reverse causality or omitted organizational change. For those reasons, the results should be interpreted as descriptive evidence rather than definitive estimates of the labor-market effect of AI in finance.</p>
+</div>
+<div id="S11.p2" class="ltx_para ltx_noindent">
+<p id="S11.p2.1" class="ltx_p">Still, the findings are useful because they sharpen the question. They suggest that the first-order effect of AI in finance may be reorganization of tasks, scaling of monitoring capacity, and uneven diffusion across firms, rather than an immediate collapse in labor costs. The next step is to expand the sample, strengthen the event-study design, and introduce heterogeneity by function, job type, and business line.</p>
+</div>
+</section>
+<section id="S12" class="ltx_section">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">12 </span>Conclusion</h2>
+
+<div id="S12.p1" class="ltx_para ltx_noindent">
+<p id="S12.p1.1" class="ltx_p">This paper provides an initial working framework for studying how agentic AI changes the labor market in finance using official SEC filing data. The main contribution is a transparent AI exposure proxy built from 10-K text and a simple panel analysis that relates the proxy to firm-level outcomes. The empirical evidence suggests that higher AI exposure is associated with lower revenue per employee, higher AUM per employee, and no clear immediate change in labor expense per employee. The event-study style evidence further suggests that AI diffusion is staggered and organizationally mediated. The broader implication is that finance is unlikely to be “eliminated” by AI, but it is likely to be reorganized around new combinations of scale, supervision, and judgment.</p>
+</div>
+</section>
+<section id="bib" class="ltx_bibliography">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+
+<ul class="ltx_biblist">
+<li id="bib.bib1" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., A. McAfee, and M. Spence. 2014.
+
+</span>
+<span class="ltx_bibblock">“New World Order: Labor, Capital, and Ideas in the Power Law Economy.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib1.1.1" class="ltx_emph ltx_font_italic">Foreign Affairs</em>, July/August 2014.
+
+</span>
+</li>
+<li id="bib.bib2" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., and A. McAfee. 2015.
+
+</span>
+<span class="ltx_bibblock">“Will Humans Go the Way of Horses? Labor in the Second Machine Age.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib2.1.1" class="ltx_emph ltx_font_italic">Foreign Affairs</em>, July/August 2015.
+
+</span>
+</li>
+<li id="bib.bib3" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+Aghion, P., U. Akcigit, A. Bergeaud, R. Blundell, and D. Hémous. 2016.
+
+</span>
+<span class="ltx_bibblock">“Innovation and Top Income Inequality.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib3.1.1" class="ltx_emph ltx_font_italic">Journal of Political Economy</em> 124(5): 1473–1504.
+
+</span>
+</li>
+<li id="bib.bib4" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+McAfee, A., and E. Brynjolfsson. 2016.
+
+</span>
+<span class="ltx_bibblock">“Human Work in the Robotic Future: Policy for the Age of Automation.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib4.1.1" class="ltx_emph ltx_font_italic">Foreign Affairs</em>, July/August 2016.
+
+</span>
+</li>
+<li id="bib.bib5" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., and A. McAfee. 2017.
+
+</span>
+<span class="ltx_bibblock">“The Business of Artificial Intelligence: What it Can and Cannot Do for Your Organization.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib5.1.1" class="ltx_emph ltx_font_italic">Harvard Business Review</em>.
+
+</span>
+</li>
+<li id="bib.bib6" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E. 2022.
+
+</span>
+<span class="ltx_bibblock">“The Turing Trap: The Promise &amp; Peril of Human-Like Artificial Intelligence.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib6.1.1" class="ltx_emph ltx_font_italic">Dædalus</em>.
+
+</span>
+</li>
+<li id="bib.bib7" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[7]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., and G. Unger. 2023.
+
+</span>
+<span class="ltx_bibblock">“The Macroeconomics of Artificial Intelligence.”
+
+</span>
+<span class="ltx_bibblock">IMF.
+
+</span>
+</li>
+<li id="bib.bib8" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[8]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., D. Li, and L. Raymond. 2023.
+
+</span>
+<span class="ltx_bibblock">“Generative AI at Work.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib8.1.1" class="ltx_emph ltx_font_italic">The Quarterly Journal of Economics</em>.
+
+</span>
+</li>
+<li id="bib.bib9" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[9]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., K. McElheran, J. F. Li, Z. Kroff, E. Dinlersoz, L. Foster, and N. Zolas. 2024.
+
+</span>
+<span class="ltx_bibblock">“AI adoption in America: Who, what, and where.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib9.1.1" class="ltx_emph ltx_font_italic">Journal of Economics &amp; Management Strategy</em>.
+
+</span>
+</li>
+<li id="bib.bib10" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[10]</span>
+<span class="ltx_bibblock">
+Autor, D. 2024.
+
+</span>
+<span class="ltx_bibblock">“Does automation replace experts or augment expertise? The answer is yes.”
+
+</span>
+<span class="ltx_bibblock">2024 Schumpeter Lecture, European Economic Association.
+
+</span>
+</li>
+<li id="bib.bib11" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[11]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., and P. Restrepo. 2022.
+
+</span>
+<span class="ltx_bibblock">“Tasks, Automation, and the Rise in U.S. Wage Inequality.”
+
+</span>
+</li>
+<li id="bib.bib12" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[12]</span>
+<span class="ltx_bibblock">
+Aghion, P., A. Bergeaud, T. Boppart, and J.-F. Brouillette. 2025.
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib12.1.1" class="ltx_emph ltx_font_italic">Resetting the Innovation Clock: Endogenous Growth through Technological Turnover</em>.
+
+</span>
+</li>
+<li id="bib.bib13" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[13]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., F. Kong, and P. Restrepo. 2025.
+
+</span>
+<span class="ltx_bibblock">“Tasks at Work: Comparative Advantage, Technology and Labor Demand.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib13.1.1" class="ltx_emph ltx_font_italic">Handbook of Labor Economics</em> 6: 1–114.
+
+</span>
+</li>
+<li id="bib.bib14" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[14]</span>
+<span class="ltx_bibblock">
+Agrawal, A. K., E. Brynjolfsson, and A. Korinek. 2025.
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib14.1.1" class="ltx_emph ltx_font_italic">The Economics of Transformative AI</em>.
+
+</span>
+<span class="ltx_bibblock">University of Chicago Press.
+
+</span>
+</li>
+<li id="bib.bib15" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[15]</span>
+<span class="ltx_bibblock">
+Agrawal, A. K., E. Brynjolfsson, and A. Korinek. 2025.
+
+</span>
+<span class="ltx_bibblock">“A Research Agenda for the Economics of Transformative AI.”
+
+</span>
+<span class="ltx_bibblock">NBER Working Paper.
+
+</span>
+</li>
+<li id="bib.bib16" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[16]</span>
+<span class="ltx_bibblock">
+Autor, D., and N. Thompson. 2025.
+
+</span>
+<span class="ltx_bibblock">“Expertise.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib16.1.1" class="ltx_emph ltx_font_italic">Journal of the European Economic Association</em> 23(4): 1203–1271.
+
+</span>
+</li>
+<li id="bib.bib17" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[17]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., and J. Loebbing. 2026.
+
+</span>
+<span class="ltx_bibblock">“Automation and Polarization.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib17.1.1" class="ltx_emph ltx_font_italic">Journal of Political Economy</em> 134(3): 1017–1072.
+
+</span>
+</li>
+<li id="bib.bib18" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[18]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., T. Lin, A. Ozdaglar, and J. Siderius. 2026.
+
+</span>
+<span class="ltx_bibblock">“How AI Aggregation Affects Knowledge.”
+
+</span>
+</li>
+<li id="bib.bib19" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[19]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., D. Kong, and A. Ozdaglar. 2026.
+
+</span>
+<span class="ltx_bibblock">“AI, Human Cognition and Knowledge Collapse.”
+
+</span>
+</li>
+<li id="bib.bib20" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[20]</span>
+<span class="ltx_bibblock">
+Acemoglu, D., D. Autor, and S. Johnson. 2026.
+
+</span>
+<span class="ltx_bibblock">“Building Pro-Worker Artificial Intelligence.”
+
+</span>
+<span class="ltx_bibblock">Brookings Institution.
+
+</span>
+</li>
+<li id="bib.bib21" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[21]</span>
+<span class="ltx_bibblock">
+Autor, D., C. Chin, A. Salomons, and B. Seegmiller. 2026.
+
+</span>
+<span class="ltx_bibblock">“What Makes New Work Different from More Work?”
+
+</span>
+<span class="ltx_bibblock">Forthcoming in <em id="bib.bib21.1.1" class="ltx_emph ltx_font_italic">Annual Review of Economics</em>.
+
+</span>
+</li>
+<li id="bib.bib22" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[22]</span>
+<span class="ltx_bibblock">
+Autor, D., and B. Kausik. 2026.
+
+</span>
+<span class="ltx_bibblock">“Resolving the Automation Paradox: Falling Labor Share, Rising Wages.”
+
+</span>
+</li>
+<li id="bib.bib23" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[23]</span>
+<span class="ltx_bibblock">
+Brynjolfsson, E., J. F. Li, J. Miranda, R. Seamans, and A. J. Wang. 2026.
+
+</span>
+<span class="ltx_bibblock">“Minimum Wages and Rise of the Robots.”
+
+</span>
+<span class="ltx_bibblock">NBER Working Paper 34895.
+
+</span>
+</li>
+<li id="bib.bib24" class="ltx_bibitem">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[24]</span>
+<span class="ltx_bibblock">
+Kulveit, J. 2026.
+
+</span>
+<span class="ltx_bibblock">“Post-AGI Economics As If Nothing Ever Happens.”
+
+</span>
+<span class="ltx_bibblock"><em id="bib.bib24.1.1" class="ltx_emph ltx_font_italic">LessWrong</em>, February 4, 2026.
+
+</span>
+<span class="ltx_bibblock"><a href="https://www.lesswrong.com/posts/fL7g3fuMQLssbHd6Y/post-agi-economics-as-if-nothing-ever-happens#" title="" class="ltx_ref ltx_url ltx_font_typewriter">https://www.lesswrong.com/posts/fL7g3fuMQLssbHd6Y/post-agi-economics-as-if-nothing-ever-happens#</a>
+
+</span>
+</li>
+</ul>
+</section>
+</article>
+</div>
+</div>
+<footer class="arxiv-html-footer">
+  <div class="ltx_page_logo">
+    Experimental support, please
+    
+    <a href="https://services.arxiv.org/html/submission/7495044/__stdout.txt" class="ltx_ref" target="_blank" rel="nofollow">view the build logs</a>
+    
+    for errors. Generated by
+    <a href="https://math.nist.gov/~BMiller/LaTeXML/" target="_blank" class="ltx_ref ltx_LaTeXML_logo">
+      <span style="letter-spacing: -0.2em; margin-right: 0.1em;">
+        L
+        <span style="font-size: 70%; position: relative; bottom: 2.2pt;">A</span>
+        T
+        <span style="position: relative; bottom: -0.4ex;">E</span>
+      </span>
+      <span class="ltx_font_smallcaps">xml</span>
+      <img alt="[LOGO]" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==">
+    </a>.
+  </div>
+  <div class="keyboard-glossary">
+    <h2>Instructions for reporting errors</h2>
+    <p>We are continuing to improve HTML versions of papers, and your feedback helps enhance accessibility and mobile
+      support. To report errors in the HTML that will help us improve conversion and rendering, choose any of the
+      methods listed below:</p>
+    <ul>
+      <li>Click the "Report Issue" <span class="mobile-only">(<svg role="presentation" style="display: inline-block; vertical-align: middle; fill: var(--text-color);" aria-hidden="true" height="1em" viewBox="0 0 640 640">
+            <path d="M224 160C224 107 267 64 320 64C373 64 416 107 416 160L416 163.6C416 179.3 403.3 192 387.6 192L252.5 192C236.8 192 224.1 179.3 224.1 163.6L224.1 160zM569.6 172.8C580.2 186.9 577.3 207 563.2 217.6L465.4 290.9C470.7 299.8 474.7 309.6 477.2 320L576 320C593.7 320 608 334.3 608 352C608 369.7 593.7 384 576 384L480 384L480 416C480 418.6 479.9 421.3 479.8 423.9L563.2 486.4C577.3 497 580.2 517.1 569.6 531.2C559 545.3 538.9 548.2 524.8 537.6L461.7 490.3C438.5 534.5 395.2 566.5 344 574.2L344 344C344 330.7 333.3 320 320 320C306.7 320 296 330.7 296 344L296 574.2C244.8 566.5 201.5 534.5 178.3 490.3L115.2 537.6C101.1 548.2 81 545.3 70.4 531.2C59.8 517.1 62.7 497 76.8 486.4L160.2 423.9C160.1 421.3 160 418.7 160 416L160 384L64 384C46.3 384 32 369.7 32 352C32 334.3 46.3 320 64 320L162.8 320C165.3 309.6 169.3 299.8 174.6 290.9L76.8 217.6C62.7 207 59.8 186.9 70.4 172.8C81 158.7 101.1 155.8 115.2 166.4L224 248C236.3 242.9 249.8 240 264 240L376 240C390.2 240 403.7 242.8 416 248L524.8 166.4C538.9 155.8 559 158.7 569.6 172.8z"></path>
+          </svg>)</span> button, located in the page header.</li>
+    </ul>
+    <p><strong>Tip:</strong> You can select the relevant text first, to include it in your report.</p>
+    <p>Our team has already identified <a class="ltx_ref" href="https://github.com/arXiv/html_feedback/issues" target="_blank">the following issues</a>. We appreciate your time reviewing and reporting rendering errors we
+      may not have found yet. Your efforts will help us improve the HTML versions for all readers, because disability
+      should not be a barrier to accessing research. Thank you for your continued support in championing open access for
+      all.</p>
+    <p>Have a free development cycle? Help support accessibility at arXiv! Our collaborators at LaTeXML maintain a <a class="ltx_ref" href="https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML" target="_blank">list of packages that need conversion</a>, and welcome <a class="ltx_ref" href="https://github.com/brucemiller/LaTeXML/issues" target="_blank">developer contributions</a>.</p>
+  </div>
+</footer>
+<div id="fixed-buttons-container">
+  <div id="beta-badge" aria-hidden="true">BETA</div>
+  <a id="disable-reading-mode-btn" class="header-button" href="javascript:toggleReadingMode();" title="Disable reading mode, show header and footer">
+    <svg role="presentation" height="1.25rem" viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+      <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path>
+    </svg>
+  </a>
+</div>
+
+</body></html>
